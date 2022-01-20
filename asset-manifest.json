@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/pretest-ui-dashboard/static/css/main.f05274e2.css",
+    "main.js": "/pretest-ui-dashboard/static/js/main.87e8c69d.js",
+    "static/js/787.8bd16ec6.chunk.js": "/pretest-ui-dashboard/static/js/787.8bd16ec6.chunk.js",
+    "static/media/building-background.jfif": "/pretest-ui-dashboard/static/media/building-background.f824b375448f60779771.jfif",
+    "static/media/avatar.jpg": "/pretest-ui-dashboard/static/media/avatar.99773c68eab2da1efda3.jpg",
+    "static/media/mig-logo.png": "/pretest-ui-dashboard/static/media/mig-logo.746b25494a353e1cb2a9.png",
+    "static/media/visa_logo2.png": "/pretest-ui-dashboard/static/media/visa_logo2.5411bea186e8e2c4e9a2.png",
+    "index.html": "/pretest-ui-dashboard/index.html",
+    "main.f05274e2.css.map": "/pretest-ui-dashboard/static/css/main.f05274e2.css.map",
+    "main.87e8c69d.js.map": "/pretest-ui-dashboard/static/js/main.87e8c69d.js.map",
+    "787.8bd16ec6.chunk.js.map": "/pretest-ui-dashboard/static/js/787.8bd16ec6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f05274e2.css",
+    "static/js/main.87e8c69d.js"
+  ]
+}
