@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BsBuilding } from "react-icons/bs";
 
 const MenuIcon = ({ Icon, iconColor, className }) => {
   const iconStyle = {
@@ -12,12 +13,14 @@ const MenuIcon = ({ Icon, iconColor, className }) => {
 
   const [isHover, setIsHover] = useState(false);
 
+  const selected = Icon === BsBuilding;
+
   return (
     <div
       className={`w-full transition ease-in duration-300 cursor-pointer ${className}`}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
-      style={isHover ? hoverStyle : {}}
+      style={isHover || selected ? hoverStyle : {}}
     >
       <Icon color={iconColor} style={iconStyle} className="mx-auto"></Icon>
     </div>

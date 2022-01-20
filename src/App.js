@@ -5,7 +5,7 @@ import TabBar from "./components/tabbar/TabBar";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App px-4 py-4 sm:px-8 ">
       <SideBar />
       <TabBar />
       <CompanyBody className="my-8" />
