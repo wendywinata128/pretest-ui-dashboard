@@ -16,7 +16,9 @@ const CompanyInformation = ({ company, className }) => {
           <img src={company.avatar} alt="logo" />
         </div>
 
-        <h5 className="text-lg font-bold">Mitramas Infosys Global</h5>
+        <h5 className="text-lg font-bold text-center w-full">
+          Mitramas Infosys Global
+        </h5>
         <span className="text-sm text-gray-600">Layanan IT</span>
         <TextButton
           title="Sunting Profil"
